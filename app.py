@@ -40,7 +40,7 @@ movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 # -----------------------------------------------------------------
 st.set_page_config(
-    page_title="My New App Name"
+    page_title="Recommender System"
 )
 
 st.title('Movie Recommender System')
